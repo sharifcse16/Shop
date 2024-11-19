@@ -1,0 +1,89 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "3.3.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "8.3.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.3.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.3.3",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.3.3",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Shop.Application": {
+      "path": "src/Shop.Application/Shop.Application.abppkg",
+      "folder": "src"
+    },
+    "Shop.Application.Tests": {
+      "path": "test/Shop.Application.Tests/Shop.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Shop.Domain.Shared": {
+      "path": "src/Shop.Domain.Shared/Shop.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Shop.Application.Contracts": {
+      "path": "src/Shop.Application.Contracts/Shop.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Shop.HttpApi": {
+      "path": "src/Shop.HttpApi/Shop.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Shop.HttpApi.Client": {
+      "path": "src/Shop.HttpApi.Client/Shop.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Shop.EntityFrameworkCore.Tests": {
+      "path": "test/Shop.EntityFrameworkCore.Tests/Shop.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Shop.EntityFrameworkCore": {
+      "path": "src/Shop.EntityFrameworkCore/Shop.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Shop.TestBase": {
+      "path": "test/Shop.TestBase/Shop.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Shop.Domain.Tests": {
+      "path": "test/Shop.Domain.Tests/Shop.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Shop.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Shop.HttpApi.Client.ConsoleTestApp/Shop.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Shop.DbMigrator": {
+      "path": "src/Shop.DbMigrator/Shop.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Shop.HttpApi.Host": {
+      "path": "src/Shop.HttpApi.Host/Shop.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Shop.Domain": {
+      "path": "src/Shop.Domain/Shop.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
